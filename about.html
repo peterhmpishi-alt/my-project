@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — henry peter</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="logo">Henry Peter</h1>
+      <button class="btn btn-purple" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarNav" aria-controls="sidebarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebarNav" aria-labelledby="sidebarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebarLabel">Navigation</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <nav class="nav flex-column">
+        <a class="nav-link" href="https://example.com/" target="_blank" rel="noopener noreferrer">Home</a>
+        <a class="nav-link" href="https://example.com/about" target="_blank" rel="noopener noreferrer">About</a>
+        <a class="nav-link" href="https://example.com/services" target="_blank" rel="noopener noreferrer">Services</a>
+        <a class="nav-link" href="https://example.com/projects" target="_blank" rel="noopener noreferrer">Projects</a>
+        <a class="nav-link" href="https://example.com/contact" target="_blank" rel="noopener noreferrer">Contact</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I specialise in building responsive, accessible websites. I enjoy collaborating with schools and non-profits to make information easy to find and engaging for students and parents.</p>
+      <p>Learn more on <a href="https://example.com" target="_blank" rel="noopener noreferrer">Example.com</a>.</p>
+      <h3>Skills</h3>
+      <ul>
+        <li>css,html</li>
+        <li>a website building</li>
+        <li>data science and software engineering</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Josephine Mutuku</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
